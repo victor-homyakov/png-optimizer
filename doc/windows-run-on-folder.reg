@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\OptiPNG]
+@="Run OptiPNG for all *.png files in folder"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\OptiPNG\command]
+@="cmd.exe /c \"title Running OptiPNG on %1 && for /r \"%1\" %%f in (*.png) do optipng -o7 \"%%f\" \""
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\PNGOUT]
+@="Run PNGOUT for all *.png files in folder"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\PNGOUT\command]
+@="cmd.exe /c \"title Running PNGOUT on %1 && for /r \"%1\" %%f in (*.png) do pngout -r \"%%f\" \""
