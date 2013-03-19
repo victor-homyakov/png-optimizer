@@ -25,3 +25,9 @@ Home page: http://advsys.net/ken/utils.htm
 - `pngout.sh` - process all *.png files in current directory
 - `pngout-fast.sh` - process with default settings (fast)
 - `pngout-long.sh` - process with all optimization settings (long)
+
+GIF Optimizer
+-------------
+
+Home page: http://chemware.co.nz/tgo.htm
+Trout's GIF Optimizer 2.3
