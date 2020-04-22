@@ -1,7 +1,7 @@
 png-optimizer
 =============
 
-Windows/Linux binaries and shell scripts for PNG image optimization:
+Windows/Linux/MacOS binaries and shell scripts for PNG image optimization:
 
 OptiPNG
 -------
@@ -11,6 +11,7 @@ Home page: http://optipng.sourceforge.net/
 
 OptiPNG/Linux 0.6.4
 OptiPNG/Windows 0.7.5
+OptiPNG/MacOS 0.7.7
 
 - `optipng.sh` - process all *.png files in current directory with all optimization settings
 - `optipng.bat` - the same for Windows

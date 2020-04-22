@@ -1,2 +1,9 @@
 #!/bin/sh
-./bin/optipng -o7 -nb *.png
+
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  dir='./bin/mac'
+else
+  dir='./bin/linux'
+fi
+
+$dir/optipng -o7 -nb *.png

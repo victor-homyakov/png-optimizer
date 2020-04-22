@@ -1,4 +1,11 @@
 #!/bin/sh
+
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  dir='./bin/mac'
+else
+  dir='./bin/linux'
+fi
+
 for i in *.png; do
-  ./bin/pngout "$i" -r $*
+  $dir/pngout "$i" -r $*
 done
